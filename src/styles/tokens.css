@@ -1,0 +1,11 @@
+:root {
+  color-scheme: light;
+  --page: #f7f8fc;
+  --ink: #1e2233;
+  --muted: #5b6076;
+  --accent: #6366f1;
+  --accent-strong: #4f46e5;
+  --glass: rgba(255, 255, 255, 0.58);
+  --glass-border: rgba(255, 255, 255, 0.72);
+  --line: rgba(148, 163, 184, 0.24);
+}
