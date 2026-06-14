@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      VITE_PASSWORD_SHA256: ${{ vars.VITE_PASSWORD_SHA256 }}
+      VITE_PASSWORD_SHA256: ${{ secrets.VITE_PASSWORD_SHA256 }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
